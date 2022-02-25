@@ -2,24 +2,20 @@
   <div class="home-page">
     <router-link to="/login"> <a-button type="primary">去登录</a-button></router-link>
     <div class="common-title">我的大屏</div>
-    <div class="sceen-items-container flex-row">
-      <div class="sceen-item"></div>
+    <div class="screen-items-container flex-row">
+      <div class="screen-item"></div>
     </div>
     <div class="common-title">大屏模板</div>
-    <div class="sceen-items-container flex-row">
-      <div class="sceen-item"></div>
+    <div class="screen-items-container flex-row">
+      <div class="screen-item"></div>
     </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from "@/components/HelloWorld.vue";
-
 export default {
-  name: "screen",
-  components: {
-    HelloWorld,
-  },
+  name: "screen-page",
+  components: {},
 };
 </script>
 <style scoped lang="less">
